@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "614147253957",
+    "project_id": "devend-c31a0",
+    "storage_bucket": "devend-c31a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614147253957:android:1f8d5594ff28d76641b2ac",
+        "android_client_info": {
+          "package_name": "de.devEnd.devend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614147253957-r10j6dt6uurojo7a492hj5p1uimmi3r8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWpyQEEBGsZBmDDMRvq0PEhN3CfiueGVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614147253957-r10j6dt6uurojo7a492hj5p1uimmi3r8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "614147253957-97a678753nr9grui0n05p180a3ruhr8s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "devEndProjects.de.devEnd"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
