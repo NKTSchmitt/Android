@@ -89,9 +89,10 @@ class SignUpActivity : AppCompatActivity() {
 
                     val user: MutableMap<String, Any> = HashMap()
                     user["email"] = email
+                    user["uid"] = mAuth.currentUser?.uid.toString()
                     user["username"] = username
 
-                    db.collection("User").add(user)
+                    db.collection("User").document(mAuth.currentUser?.uid.toString()).set(user)
 
                     Toast.makeText(this, "Account erfolgreich erstellt!", Toast.LENGTH_SHORT).show()
 

@@ -34,9 +34,10 @@ class LogInActivity : AppCompatActivity() {
         val button_login: Button = findViewById(R.id.button_login)
 
 
-        if (mAuth != null) {
+        if (mAuth.currentUser != null) {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
+            finish()
         }
 
 
